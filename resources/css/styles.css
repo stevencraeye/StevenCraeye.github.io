@@ -1,0 +1,30 @@
+html {
+    background-color: black;
+    text-align: center;
+}
+
+.h-banner {
+    font-family: Verdana;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.p-link {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.h-section {
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+.p-section {
+    font-family: Verdana;
+    font-size: 21px;
+    color: gray;
+}
