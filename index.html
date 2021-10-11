@@ -1,33 +1,108 @@
 <!DOCTYPE html>
 
-<html>
-    <head>
-        <link rel="stylesheet" href="./resources/css/styles.css">
-    </head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./resources/css/styles.css" />
+  </head>
 
-    <body>
-        <header>
-            <h1 class="h-banner">
-                Discover hidden places in the place around you
-            </h1>
-            <p class="p-link">Download Excursion (Coming soon!)</p>
-        </header>
-        <section>
-            <video controls>
-                <source src="resources/videos/excursion.mp4" type="video/mp4">
-            </video>
-            <h2 class="h-section">
-                Your personal travel guide
-            </h2>
-            <p class="p-section">
-                Excursion remembers places you like, and recommends new points of interest around you.
+  <body>
+    <nav>
+      <h2 id="logo">Steven Craeye</h2>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>
+              Hi - I am Steven.
             </p>
-            <img src="resources/images/camp.webp" />
-        </section>
-        <footer>
-            <img src="resources/images/phone.webp" />
-            <h2 class="h-banner">Coming soon for iPhone and Android</h2>
-            <p class="p-link"><a>Download Excursion (coming soon)</a></p>
-        </footer>
-    </body>
+          </div>
+          <img
+            src=""
+            alt="A photo of Steven Craeye"
+            class="portrait"
+          />
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Project 01</h3>
+          </summary>
+          <img
+            src=""
+            alt="Project 1 deets"
+            class="project-image"
+          />
+          <p class="project-description">
+            The best poject 01 ever!
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Porject 02</h3>
+          </summary>
+          <img
+            src=""
+            alt="Project 02 deets"
+            class="project-image"
+          />
+          <p class="project-description">
+            The second best project ever!
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Project 03</h3>
+          </summary>
+          <img
+            src=""
+            alt="Project 03 deets"
+            class="project-image"
+          />
+          <p class="project-description">
+            The third project.
+          </p>
+        </details>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div id="skills-container">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-aws"></i>
+          <i class="fab fa-sketch"></i>
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-chrome"></i>
+          <i class="fas fa-terminal"></i>
+          <i class="fas fa-universal-access"></i>
+          <i class="fab fa-npm"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        Made with <span class="heart">♥</span> in South Africa
+    </footer>
+  </body>
+
 </html>
